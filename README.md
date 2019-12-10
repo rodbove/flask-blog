@@ -11,3 +11,5 @@ Features live
 - Register/Login
 - View/Edit user profile page
 - Create/Edit/Delete posts
+- Home page and user posts pagination
+- Password reset e-mail and function
