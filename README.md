@@ -1,7 +1,5 @@
 # flask-website
 
-##Currently deployed on http://45.79.54.118
-
 This is a blog kind of website created with Flask features on Python. It is still in progress and as soon as it has interactive features like posts and logins working I'll post here everything it has and future implementations.
 
 For running it make sure you download all the files and run the file "run.py" to execute everything that is on the "website" package and access on your localhost:5000. You will have to set your own environment variables for using the reset password email funcitonality if you want. You can change it on config.py file.
