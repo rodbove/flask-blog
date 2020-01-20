@@ -2,6 +2,9 @@
 
 This is a blog kind of website created with Flask features on Python. It is still in progress and as soon as it has interactive features like posts and logins working I'll post here everything it has and future implementations.
 
+## Preview
+![preview gif](https://raw.githubusercontent.com/PooWoox/python-flask-website/master/flask_blog_preview.gif)
+
 ## Running locally
 
 For running it, clone the repository and run the file "run.py" to execute everything that is on the "website" package and access using your browser on localhost:5000. You will have to set your own environment variables for using the reset password email funcitonality if you want. You can change it on config.py file.
