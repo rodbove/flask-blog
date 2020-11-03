@@ -1,6 +1,6 @@
 # flask-website
 
-This is a blog kind of website created with Flask features on Python. It is still in progress and as soon as it has interactive features like posts and logins working I'll post here everything it has and future implementations.
+This is a blog website created with Flask features on Python.
 
 ## Preview
 ![preview gif](https://raw.githubusercontent.com/PooWoox/python-flask-website/master/flask_blog_preview.gif)
@@ -13,7 +13,7 @@ For running it, clone the repository and run the file "run.py" to execute everyt
 
 ## A bit about the functionality
 
-The webapp is entirely organized in directories. Besides static stuff and html templates, I used blueprintes for all others for better organization. At first it wasn't structured like this but I learned about it and how it is good for using in projects that may grow, adding functionalities becomes more simple.
+The webapp is entirely organized in directories. Besides static stuff and html templates, I used blueprints for all others for better organization and ease on adding functionalities later.
 
 Speaking of functionalities, below I will list them and talk about each with more details. First, here is a list of the modules I used for the making (if I forgot some and remember later I'll add it here):
 - From flask: current_app, render_template, redirect, url_for, request, Blueprint, flash, abort;
@@ -25,7 +25,7 @@ Speaking of functionalities, below I will list them and talk about each with mor
 - itsdangerous for generating a token to authenticate the user on the password reset email;
 - bcrypt for encrypting passwords before saving them to the db;
 - PIL for handling profile pictures;
-- secretes for generating a random hex that I used to name the profile pictures saved on the db;
+- secrets for generating a random hex that I used to name the profile pictures saved on the db;
 - flask_mail for sending the password reset email.
 
 ## Features live
